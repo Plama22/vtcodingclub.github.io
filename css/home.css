@@ -105,7 +105,7 @@ body {
 	}
 }
 
-h1 {
+.collection h1 {
     color: var(--primary-color);
     font-size: 72px;
 }
@@ -129,42 +129,37 @@ div.gallery {
     padding: 10px;
 }
   
-div.gallery .h img {
+div.gallery .activity-img img {
     width: 371;
     height: 371;
     border-color: #1F2938;
 }
 
-* {
-    box-sizing: border-box;
-    border-radius: 10;
-    border-image-width: 371;
-}
 
 div.desc_head{
     text-align: left;
-    padding: 10px;
+    padding: 1.2em;
 }
 div.desc {
     text-align: left;
-    padding: 10px;
+    padding: 1em;
 }
 
-.responsive {
+.activities-responsive {
     padding: 6px;
     float: left;
     width: 24.99999%;
 }
   
 @media only screen and (max-width: 700px) {
-    .responsive {
+    .activities-responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
 }
   
 @media only screen and (max-width: 500px) {
-    .responsive {
+    .activities-responsive {
       width: 100%;
     }
 }
@@ -175,9 +170,10 @@ div.desc {
     clear: both;
 }
 
-.responsive .gallery {
+.activities-responsive .gallery {
     background: white;
 }
+
 
 .hamburger_sidebar {
     background-color: #234C8A;
